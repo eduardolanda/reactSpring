@@ -1,0 +1,42 @@
+.App {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+html {
+  background: #1e1c2a;
+}
+.App-logo {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.transitions-item {
+  overflow: hidden;
+  color: white;
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: none;
+  pointer-events: none;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.listProjects {
+  color: white;
+}
+.GroupTexts {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.cardTech:hover {
+  box-shadow: 10px 10px 15px solid white;
+}
